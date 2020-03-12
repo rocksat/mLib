@@ -1,8 +1,11 @@
 //
 // external FreeImage headers
 //
-#include "FreeImage.h"
-// #include "FreeImage/FreeImage.h"
+#ifdef __unix__      
+	#include "FreeImage.h"
+#elif defined(_WIN32) || defined(_WIN64)
+	#include "FreeImage/FreeImage.h"
+#endif
 //#include <wchar.h>
 
 //
