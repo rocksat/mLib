@@ -1,11 +1,14 @@
 .SUFFIXES:
 
-CXX = clang++
-FLAGS = -g -std=c++11
+CXX = g++
+FLAGS = -g -std=c++14
 FLAGS += -I "src"
-FLAGS += -I "../../mLib/include"
-FLAGS += -I "../../mLib/src"
+FLAGS += -I "../../../mLib/include"
+FLAGS += -I "../../../mLib/src"
+FLAGS += -I "../../../mLibExternal/include"
+FLAGS += -I "/usr/include/eigen3"
 LFLAGS = -g
+LFLAGS += -pthread
 
 SRC = main.cpp mLibSource.cpp
 OBJS = $(SRC:.cpp=.o)

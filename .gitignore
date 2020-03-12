@@ -1,3 +1,7 @@
+.vscode/
+/test/testLinux/build/
+/test/testLinux/test.png
+/test/testLinux/mLibTest
 /test/testWindows/*.opensdf
 /test/testWindows/*.sdf
 /test/testWindows/.vs/
