@@ -1,5 +1,8 @@
 /test/testWindows/*.opensdf
 /test/testWindows/*.sdf
+/test/testWindows/.vs/
+/test/testWindows/testCore.vcxproj.user
+/test/testWindows/x64/
 /test/testWindows/x64/Debug/*.log
 /test/testWindows/x64/Debug/testCore.tlog/*.tlog
 /test/testWindows/x64/Debug/testCore.tlog/*.lastbuildstate
