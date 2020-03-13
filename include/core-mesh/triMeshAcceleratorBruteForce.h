@@ -14,7 +14,7 @@ public:
 	}
 
 	TriMeshAcceleratorBruteForce(const TriMesh<FloatType>& triMesh, bool storeLocalCopy = false) {
-		build(triMesh, storeLocalCopy);
+		this->build(triMesh, storeLocalCopy);
 	}
 
 
